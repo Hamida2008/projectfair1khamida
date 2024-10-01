@@ -81,3 +81,39 @@ img {
   margin-top: 5px;
   color: #555;
 }
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 20px;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .slide-track {
+    width: calc(250px * 10);
+    animation: scroll 15s linear infinite;
+  }
+
+  .slide {
+    width: 250px;
+    padding: 10px;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .price {
+    font-size: 0.9rem;
+  }
+
+  .BACK-btn {
+    font-size: 16px;
+    padding: 10px 30px;
+    bottom: 15px;
+  }
+}

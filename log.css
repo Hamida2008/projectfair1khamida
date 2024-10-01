@@ -95,3 +95,18 @@ button:hover {
   cursor: pointer;
   color: #555;
 }
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  input,
+  button {
+    padding: 10px;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}

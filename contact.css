@@ -35,7 +35,7 @@ a {
   padding: 40px;
   width: 400px;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   position: relative;
   text-align: center;
 }
@@ -98,4 +98,33 @@ button:hover {
 
 .close-button:hover {
   color: red;
+}
+
+/* Mobile Styles */
+
+@media (max-width: 480px) {
+  /* Additional small-screen adjustments */
+  .contact-form {
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .info,
+  .message {
+    font-size: 0.8rem;
+  }
+
+  input,
+  button {
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+
+  .close-button {
+    font-size: 1.2rem;
+  }
 }
